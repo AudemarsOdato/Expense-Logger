@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+        <head>
+                <title>Expense Logger</title>
+                <link rel="stylesheet" href="style.css">
+                <link rel="icon" href="icon.png">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        </head>
+
+        <body>
+                <div class="container">
+                        <h1>Expense Diary</h1>
+                        <form>
+                                <div class="input">
+                                        <input type="text" name="item" id="item" placeholder="What?">
+                                </div>
+                                <div class="input">
+                                        <input type="number" name="price" id="price" placeholder="How much?">
+                                </div>
+                                <div class="input" id="buttons">
+                                        <input type="button" value="Nope" onclick="undo()">
+                                        <input type="submit" value="Log">
+                                </div>
+                        </form>
+
+                        <div class="history">
+                                <!--<h2>History</h2> -->
+                                <ul id="historyList">
+                                        <!-- li elements -->
+                                </ul>
+                        </div>
+                </div>
+
+                <script src="script.js"></script>
+        </body>
+</html>
