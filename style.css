@@ -1,6 +1,6 @@
 body {
         background-color: rgb(255, 203, 196);
-        font-family: "Sriracha", serif;
+        font-family: "Sour Gummy", sans-serif;
         padding: 8px;
 }
 
@@ -44,7 +44,7 @@ input {
         height: 25px;
         border-radius: 8px;
         outline: none;
-        font-family: "Sriracha", serif;
+        font-family: "Sour Gummy", sans-serif;
         border: 1px solid #FF9899;
         background-color: rgb(255, 255, 255);
         color: rgb(255, 152, 153);
