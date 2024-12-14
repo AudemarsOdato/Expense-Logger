@@ -1,7 +1,10 @@
+* {
+        font-family: "Sriracha", serif;
+}
+
 body {
         background-color: rgb(255, 203, 196);
-        font-family: "Sriracha", serif;
-        padding: 8px;
+        padding: 16px;
 }
 
 h1 {
@@ -11,41 +14,46 @@ h1 {
 .container {
         box-sizing: border-box;
         margin: auto;
-        padding: 8px;
 }
 
-input[type=text],[type=number] {
-        width: 60%;
+input[type=text], input[type=number] {
+        width: 90%;
         margin: auto;
-        padding: 0px 8px;
+        padding: 4px 8px;
 }
 
 input[type=text]::placeholder,[type=number]::placeholder {
         color: rgb(255, 152, 153);
 }
 
-input[type=submit] {
-        width: 40px;
-        height: 30px;
+input[type=submit], input[type=button] {
+        padding: 16px 24px;
+        line-height: 4px;
+
+        border: 1px solid rgb(255, 255, 255);
+
+        background-color: rgb(255, 152, 153);
+        color: rgb(255, 255, 255);
 }
 
-input[type=button] {
-        height: 30px;
-        margin-right: 4px;
+input[type=submit]:hover, input[type=button]:hover {
+        background-color: rgb(255, 203, 196);
+        color: rgb(255, 255, 255);
 }
 
-#buttons {
-        display: flex;
-        justify-content: flex-end;
-        width: 30%;
+.input-button {
+        text-align: right;
+        margin: 8px auto;
 }
 
 input {
-        height: 25px;
-        border-radius: 8px;
         outline: none;
-        font-family: "Sriracha", serif;
-        border: 1px solid #FF9899;
+
+        height: 25px;
+
+        border-radius: 8px;
+        border: 1px solid rgb(255, 152, 153);
+
         background-color: rgb(255, 255, 255);
         color: rgb(255, 152, 153);
 }
@@ -53,6 +61,7 @@ input {
 .input {
         box-sizing: border-box;
         margin: 8px auto;
+        text-align: center;
 }
 
 
