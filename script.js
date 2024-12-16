@@ -1,5 +1,3 @@
-// Wishlist: Responsive wordspacing
-
 const item = document.querySelector("[name='item']")
 const price = document.querySelector("[name='price']")
 const historyList = document.getElementById("historyList")
